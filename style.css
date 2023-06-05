@@ -1,0 +1,189 @@
+/* Débogages Nico */
+/* *{box-shadow: -1px 1px 10px 1px rgba(0, 0, 0, 0.5) inset;}
+body{box-shadow: -1px 1px 10px 3px red inset;}
+header{box-shadow: -1px 1px 10px 3px yellow inset;}
+section{box-shadow: -1px 1px 10px 3px blue inset;} */
+
+.main-container {
+    margin: auto;
+    box-shadow: 0 1px 3px #0000001f, 0 1px 2px #0000003d;
+}
+
+h1 {
+    width: 90%;
+    margin: auto;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+
+/* Header */
+/* ----------------- */
+
+header {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0.2%;
+    width: 80%;
+    margin: auto;
+
+}
+
+.p1 {
+    text-align: center;
+}
+
+.p2 {
+    text-align: center;
+}
+
+/* Nav */
+/* ----------------- */
+
+.active {
+    background-color: #dad8d8;
+    color: rgb(0, 0, 0);
+}
+
+.nav {
+
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.nav li {
+    list-style-type: none;
+    background-color: #38444d;
+    border-right: 1px solid #dad8d8;
+    border-top: 1px solid #dad8d8;
+    border-bottom: 1px solid #dad8d8;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #ffffff;
+    color: #38444d;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px #00000033;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Footer */
+/* ----------------- */
+footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    color: #888;
+    font-size: 14px;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+
+
+
+/* About me */
+/* ----------------- */
+
+.container-about-me {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.knowledge {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+
+/* My dreams */
+/* ----------------- */
+.figcap {
+    font-size: smaller;
+    font-style: italic;
+    color: #6f6e6e;
+}
